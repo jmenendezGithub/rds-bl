@@ -1,6 +1,6 @@
 'use strict'
 
-import colors from "colors";
+const colors = require('colors');
 import { version } from './package.json';
 
 import express from "express";
