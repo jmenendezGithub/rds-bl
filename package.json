@@ -1,0 +1,26 @@
+{
+  "name": "rds-bl",
+  "version": "5.0.1",
+  "description": "RDS Lógica de Negocio (API-REST)",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel index.js -d dist",
+    "start": "nodemon --exec npx babel-node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jorge Menéndez",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.4.0",
+    "cors": "2.8.5",
+    "express": "4.17.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.16.8",
+    "@babel/core": "7.16.12",
+    "@babel/node": "7.16.8",
+    "@babel/plugin-transform-runtime": "7.16.10",
+    "@babel/preset-env": "7.16.11",
+    "nodemon": "2.0.15"
+  }
+}

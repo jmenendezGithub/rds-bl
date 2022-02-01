@@ -1,0 +1,18 @@
+
+GET http://localhost:2000/avl/
+// Authorization: token xxx
+
+
+
+GET http://localhost:2000/avl/33
+// Authorization: token xxx
+
+###
+POST http://localhost:2000/avl/ HTTP/1.1
+content-type: application/json
+// Authorization: token xxx
+{
+   "mdmid": 2, 
+   "imei": "imei",
+   "db": "127.0.0.1"
+}
