@@ -1,6 +1,6 @@
 'use strict'
 
-import {colors} from "colors";
+import colors from "colors";
 import { version } from './package.json';
 
 import express from "express";
