@@ -4,7 +4,6 @@
   "description": "RDS Lógica de Negocio (API-REST)",
   "main": "index.js",
   "scripts": {
-    "build": "echo \"Error: no build specified\" && exit 1",
     "dev": "nodemon index.js",
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
